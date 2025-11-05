@@ -43,3 +43,4 @@ footer {
 }
 Main{
     max-width: 300;
+}
