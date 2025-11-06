@@ -1,4 +1,7 @@
-nav {
+<!DOCTYPE html>
+html :lang="en-US">
+
+<head>
     background-color: blueviolet;
     padding: 10px;
 }
@@ -31,7 +34,7 @@ aside {
     text-align: center;
 }
 
-aside {
+aside img {
     width: 200px;
     height: auto;
 }
@@ -41,5 +44,3 @@ footer {
     border-top: 1px solid black;
     text-align: center;
 }
-Main{
-    max-width: 300;
