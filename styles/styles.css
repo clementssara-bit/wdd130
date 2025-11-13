@@ -1,6 +1,16 @@
+:root {
+    --heading-background-color: rgb(6, 70, 6);
+    --heading-text-color: white;
+    --heading-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --padding: 10px;
+}
+
 nav {
-    background-color: rgb(6, 70, 6);
-    padding: 10px;
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+
 }
 
 nav a {
@@ -10,7 +20,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: black;
 }
 
 main {
