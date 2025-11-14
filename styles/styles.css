@@ -48,13 +48,19 @@ p {
 
 aside {
     width: 20rem;
+    margin: ;
+    border: 5px solid black;
+    padding: 4px;
+    background-color: bisque ;
+    color: forestgreen ;
     text-align: center;
 }
 
 aside img {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
+
 aside h2 {
     position: absolute;
     top: 47px;
