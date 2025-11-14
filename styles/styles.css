@@ -5,7 +5,7 @@
 }
 
 :root {
-    --heading-background-color: rgb(6, 70, 6);
+    --heading-background-color: rgba(57, 114, 71, 0.753);
     --heading-text-color: white;
     --heading-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --padding: 10px;
@@ -30,7 +30,7 @@ h1 {
 }
 
 main {
-    max-width: 840px;
+    max-width: 760px;
 }
 
 main img {
@@ -46,15 +46,6 @@ p {
     padding: 0;
 }
 
-aside {
-    width: 20rem;
-    margin: ;
-    border: 5px solid black;
-    padding: 4px;
-    background-color: bisque ;
-    color: forestgreen ;
-    text-align: center;
-}
 
 aside img {
     width: 200px;
@@ -78,6 +69,6 @@ footer {
     margin: 1rem;
     border: 3px solid black;
     padding: 1rem;
-    background-color: lightgray;
+    background-color: rgba(57, 114, 71, 0.637);
     color: black;
 }
