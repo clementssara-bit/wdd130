@@ -41,7 +41,7 @@ aside {
 }
 
 img {
-    width: 200;
+    width: 200px;
     height: auto;
     border: 3px solid black;
     padding: 2px;
@@ -49,7 +49,7 @@ img {
 }
 
 main img {
-    width: 250px;
+    max-width: 250px;
     height: auto;
     border: 4px solid black;
     padding: 1px;
