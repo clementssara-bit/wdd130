@@ -8,7 +8,6 @@
     --primary-color: white;
     --secondary-color: rgb(138, 152, 231);
     --accent1-color: black;
-    --accent2-color: gray;
     --heading-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -59,7 +58,7 @@ h1 {
 }
 
 h2 {
-    position: end;
+    position: ; absolute, bottom;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -70,6 +69,6 @@ h2 {
 }
 
 .hero article img {
-    float: left;
+    float: right;
     width: 200px;
 }
