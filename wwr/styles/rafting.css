@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: white;
-    --secondary-color: rgb(138, 152, 231);
+    --secondary-color: darkblue;
     --accent1-color: black;
     --heading-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -53,14 +53,14 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: blue;
+    background-color: var(--secondary-color);
     color: yellow 
 }
 
 .hero article {
     position: absolute;
     bottom: 15px;
-    background-color: blue;
+    background-color: var(--secondary-color);
     width: 808px;
     opacity: .85;
     color: var(--primary-color);
