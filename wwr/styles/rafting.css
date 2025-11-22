@@ -38,7 +38,7 @@ ul.navigation {
 
 ul.navigation li {
     flex: 1 1 auto;
-    border: 3px solid var(--accent1-color);
+    border: 2.5px solid var(--accent1-color);
     text-align: center;
     background-color: var(--accent3-color);
     padding: 5px;
@@ -101,7 +101,7 @@ nav, p, section, article {
     width: 100px;
     margin-right: 20px;
     opacity: 1;
-    border: 3px var(--accent1-color);
+    border: 3px solid var(--accent1-color);
 }
 
 section.history article {
@@ -115,7 +115,7 @@ section.history article img {
     margin: 0 auto;
     width: 200px;
     height: auto;
-    border: 3px var(--accent1-color);
+    border: 4px solid var(--accent1-color);
 }
 
 section.adventure div {
@@ -130,12 +130,16 @@ section.adventure img {
     margin: 0 auto;
     width: 135px;
     height: auto;
-    border: 3px var(--accent1-color);
+    border: 3px solid var(--accent1-color);
 }
 
 footer .socialmedia {
     float: right;
     margin: 0;
+}
+
+.socialmedia {
+    text-decoration: none;
 }
 
 footer p {
