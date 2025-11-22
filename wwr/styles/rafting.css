@@ -77,6 +77,10 @@ nav, p, section, article {
     padding: 8px;
 }
 
+.socialmedia a {
+    text-decoration: none;
+}
+
 .hero {
     position: relative;
 }
@@ -136,10 +140,6 @@ section.adventure img {
 footer .socialmedia {
     float: right;
     margin: 0;
-}
-
-.socialmedia {
-    text-decoration: none;
 }
 
 footer p {
