@@ -9,6 +9,7 @@
     --secondary-color: darkblue;
     --accent1-color: black;
     --accent2-color: yellow;
+    --accent3-color: orange;
     --heading-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -23,6 +24,34 @@ header, main, footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    align-items: center;
+    padding: 20px;
+}
+
+ul.navigation {
+    display: flex;
+    list-style: none;
+}
+
+ul.navigation li {
+    flex: 1 1 auto;
+    border: 3px solid var(--accent1-color);
+    text-align: center;
+    background-color: var(--accent3-color);
+    padding: 5px;
+}
+
+ul.navigation li a {
+    color: var(--accent1-color)
+} 
+
+a {
+    text-decoration: none;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     background-color: var(--secondary-color);
@@ -34,20 +63,18 @@ h1 {
     position: absolute;
     top: 20px;
     width: 100%;
-    opacity: 0.7;
+    opacity: .7;
     color: var(--accent2-color) 
 }
 
 h2 {
+    display: block;
     color: var(--primary-color)
 }
+
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
-}
-
-.socialmedia a {
-    text-decoration: none;
 }
 
 .hero {
@@ -74,6 +101,43 @@ nav, p, section, article {
     width: 100px;
     margin-right: 20px;
     opacity: 1;
-    border: 3px solid black;
+    border: 3px var(--accent1-color);
 }
 
+section.history article {
+    display: grid;
+    grid-template-columns: 1fr 220px 1fr;
+    align-items: center;
+    padding: 20px;
+}
+
+section.history article img {
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    border: 3px var(--accent1-color);
+}
+
+section.adventure div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+section.adventure img {
+    margin: 0 auto;
+    width: 135px;
+    height: auto;
+    border: 3px var(--accent1-color);
+}
+
+footer .socialmedia {
+    float: right;
+    margin: 0;
+}
+
+footer p {
+    text-align: right;
+}
