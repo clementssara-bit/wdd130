@@ -1,0 +1,21 @@
+table {
+    border: 3px black;
+    border: 2px solid purple;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+th {background-color: salmon;}
+td {
+    border: 1px solid orange;
+    background-color: bisque;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr, tfoot tr {
+    background-color: blue;
+    color: black;
+    font-weight: 700;
+}
