@@ -6,7 +6,7 @@
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: #333;
     background: #fff;
 }
@@ -19,14 +19,14 @@ header {
 h1 {
     margin: 1rem;
     font-size: 1.5em;
-    color: navy;
+    color: black;
     text-align: center;
 }
 
 form {
     width: 650;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
     border: 2px solid darkgreen;
     border-radius: 0.5rem;
     background-color: hsla(120, 23%, 58%, 0.932);
@@ -35,7 +35,7 @@ form {
 
 fieldset {
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: .5rem;
     margin: 1rem;
     border: 2px solid black;
     padding: 1rem;
@@ -56,15 +56,15 @@ fieldset {
 }
 
 legend {
-    padding: 3rem;
+    padding: 0.5rem;
     color: orange;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 label {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    padding-right: 2rem;
+    text-align: right;
+    padding-right: 1rem;
 }
 
 input, select, textarea {
@@ -76,6 +76,7 @@ input[type="checkbox"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
+    margin: 1rem;
 }
 
 button {
@@ -83,9 +84,9 @@ button {
     background-color: beige;
     color: black;
     border: 50%;
-    border-radius: 0%;
-    padding: 2%;
-    font-size: 1rem;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
 }
 
 button:hover {
@@ -95,8 +96,8 @@ button:hover {
 footer {
     margin: 1rem auto 0;
     width: 650;
-    text-align: right;
+    text-align: center;
     font-size: 0.8em;
-    color: fuchsia;
-    border-top: 1px top solid blue;
+    color: black;
+    border-top: 8px top solid fuchsia;
 }

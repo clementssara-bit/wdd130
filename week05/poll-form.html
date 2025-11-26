@@ -8,19 +8,26 @@
     <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <header>
-    <main>
-        <div class="form-item column2">
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname">
-        </div>
-        <div class="form-item column2">
-            <label for="useremail">Email:</label>
-            <input type="email" id="useremail" name="useremail">
-        </div>
-        <form>
+    <h1>WDD 130 | HTML Form - User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
             <div class="form-item column1">
-                <label for="favorite browser">What is your favorite internet browser?</label>
-                <select id="favorite browser" name="favorite browser">
+                <label for="browser">What is your favorite internet browser?</label>
+                <select id="browser" name="browser">
                     <option value="chrome">Chrome</option>
                     <option value="bing">Bing</option>
                     <option value="safari">Safari</option>
@@ -34,9 +41,10 @@
                     placeholder="Bend Oregon, Santa Clara California, Louisville Kentucky"></textarea>
                 <button type="submit">Submit Poll</button>
             </div>
-        </form>
-    </main>
-</header>
-<footer>
+        </fieldset>
+    </form>
+</main>
 
+<footer>
+    <p>©️2025 | HTML Form - User Poll Activity | Sara Clements</p>
 </footer>
