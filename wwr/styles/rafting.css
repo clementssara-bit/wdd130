@@ -200,7 +200,6 @@ footer p {
 .team-grid {
     display: flex;
     gap: 5rem;
-    grid-template-columns: repeat(auto-fit, minmax(200px 1fr, 1fr, 1fr));
 }
 
 .team-grid img {
