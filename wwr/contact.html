@@ -34,48 +34,48 @@
 
         </div>
 
-        <section class="contact-form-section">
-            <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22945.754436115898!2d-121.3869134880872!3d44.03752505101711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1764720241766!5m2!1sen!2sus"
-                    width="600" height="450" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="contact-form-grid">
+        <section class="contact-form"></section>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22945.754436115898!2d-121.3869134880872!3d44.03752505101711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1764720241766!5m2!1sen!2sus"
+                width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-form-grid">
 
-                <form action="#" method="post">
-                    <div class="form-item column2">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
+            <form action="#" method="post">
+                <div class="form-item column2">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
-                    <div class="form-item column2">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email">
-                    </div>
-                    <div class="form-item column2">
+                <div class="form-item column2">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-item column2">
 
-                        <label>Message Purpose</label>
-                        <div class="block-form">
-                            <label for="inquiry">General Inquiry</label>
-                            <input type="radio" id="radio" name="purpose" value="general" required>
-                            <label for="question">Reservation Question</label>
-                            <input type="radio" id="radio" name="purpose" value="reservation">
-                            <label for="suggestion">website suggestion</label>
-                            <input type="radio" id="radio" name="purpose" value="suggestion">
-                        </div>
-                    </div>
+                    <label>Message Purpose</label>
                     <div class="block-form">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="6" required></textarea>
+                        <label for="inquiry">General Inquiry</label>
+                        <input type="inquiry" id="inquiry" name="purpose" value="general" required>
+                        <label for="question">Reservation Question</label>
+                        <input type="question" id="question" name="purpose" value="reservation">
+                        <label for="suggestion">website suggestion</label>
+                        <input type="suggestion" id="suggestion" name="purpose" value="suggestion">
                     </div>
-                    <label class="newsletter">
-                        <input type="checkbox" name="subscribe"> Please subscribe me to the monthly
-                        newsletter</label>
+                </div>
+                <div class="block-form">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <label class="newsletter">
+                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly
+                    newsletter</label>
 
-                    <button type="submit" class="form-submit">Send Message</button>
-                </form>
-            </div>
+                <button type="submit" class="form-submit">Send Message</button>
+            </form>
+        </div>
         </section>
         <section class="our-team">
             <h3>Meet Our Team!</h3>
