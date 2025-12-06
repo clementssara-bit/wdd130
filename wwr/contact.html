@@ -57,19 +57,19 @@
                         <label>Message Purpose</label>
                         <div class="block-form">
                             <label for="general">General Inquiry</label>
-                            <input type="radio" id="general" name="general" value="general" required>
+                            <input type="radio" id="general" name="purpose" value="general" required>
                             <label for="question">Reservation Question</label>
-                            <input type="radio" id="question" name="question" value="question">
+                            <input type="radio" id="question" name="purpose" value="question">
                             <label for="suggestion">Website Suggestion</label>
-                            <input type="radio" id="suggestion" name="suggestion" value="suggestion">
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
                         </div>
                     </div>
                     <div class="block-form">
                         <label for="message">Message</label>
                         <textarea id="message" name="message" rows="6" required></textarea>
                     </div>
-                    <label class="newsletter">
-                        <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to the monthly
                         newsletter</label>
 
                     <button type="submit" class="form-submit">Send Message</button>
