@@ -210,7 +210,7 @@ footer p {
     border-color: black;
 }
 
-.contact-form-section {
+.contact-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
