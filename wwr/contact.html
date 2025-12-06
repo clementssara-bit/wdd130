@@ -58,11 +58,11 @@
                     <label>Message Purpose</label>
                     <div class="block-form">
                         <label for="inquiry">General Inquiry</label>
-                        <input type="radio" id="radio" name="purpose" value="general" required>
-                        <label for="button">Reservation Question</label>
-                        <input type="button" id="button" name="purpose" value="button">
-                        <label for="suggestion">website suggestion</label>
-                        <input type="suggestion" id="suggestion" name="purpose" value="suggestion">
+                        <input type="radio" id="general" name="general" value="general" required>
+                        <label for="question">Reservation Question</label>
+                        <input type="radio" id="question" name="question" value="question">
+                        <label for="suggestion">Website Suggestion</label>
+                        <input type="radio" id="suggestion" name="suggestion" value="suggestion">
                     </div>
                 </div>
                 <div class="block-form">
@@ -70,7 +70,7 @@
                     <textarea id="message" name="message" rows="6" required></textarea>
                 </div>
                 <label class="newsletter">
-                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly
+                    <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly
                     newsletter</label>
 
                 <button type="submit" class="form-submit">Send Message</button>
