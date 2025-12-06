@@ -2,59 +2,174 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="styles/rafting.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="class WDD 130, instructor Sister Daley, Sara Clements' Home Page come to life">
+    <meta name="description"
+        content="Rafting company website with details of rafting trips, equipment, our team and the beautiful pacific northwest rivers">
     <meta name="author" content="Sara Clements">
-    <title>Sara Clements | WDD 130</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Home Page - Deschutes River Rafting</title>
 </head>
 
 <body>
     <header>
+        <img src="images/logo.jpg" alt="rafting logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
-            <a href="https://www.linkedin.com/in/sara-clements-41ba9931/" target="_blank">LinkedIn</a>
-            <a href="https://www.facebook.com/sara.woodsclements/" target="_blank">Facebook</a>
+            <ul class="navigation">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
-    <div class="grid">
-        <main>
-            <h1>Sara Clements | WDD 130</h1>
-            <img src="images/profile.jpg" alt="Hello, my name is Sara Clements" width="200">
-            <p>Hello! My name is Sara Clements and I am from the beautiful Oregon valley. I enjoy going to the Oregon
-                coast,
-                doing genealogy and being creative. I served a mission for the church in the Kentucky, Louisville
-                Mission.
-                My husband and I have been married for 28 years and we have six kids ranging from 13 to 27. We welcomed
-                a
-                son-in-law to the family this last summer. As a family we love going to the temple, cooking together and
-                playing games.</p>
-            <ul class="box">
-                <li><a href="https://churchofjesuschristtemples.org/portland-oregon-temple/" target="_blank">Portland
-                        Oregon
-                        Temple</a></li>
-                <li><a href="https://churchofjesuschristtemples.org/mesa-arizona-temple/" target="_blank">Mesa Arizona
-                        Temple</a></li>
-                <li><a href="https://churchofjesuschristtemples.org/oslo-norway-temple/" target="_blank">Oslo Norway
-                        Temple</a></li>
-            </ul>
-        </main>
-        <aside class="box">
-            <h2>Oregon USA</h2>
-            <img src="images/oregon-coast.jpg" alt="Oregon Coast">
-            <p>Oregon is known for it's variety of landscapes; from the rugged
-                coastline, temperate rainforests and towering cascade range mountains. The capital of Oregon is Salem,
-                which
-                is in the Willamette Valley. Oregon is also known for Lewis and Clark's expedition from 1804-1806 the
-                Oregon
-                Trail which began in the 1840's.</p>
-        </aside>
-    </div>
+    <main>
+        <div class="contact-info">
+            <h1>Deschutes River Rafting Company</h1>
+
+            <p>440 NW Riverfornt</p>
+            <p>Bend, Oregon</p>
+            <p>Phone: 541-908-4432</p>
+            <p>Email: <a href="mailto:">adventure.deschutes@gmail.com</a></p>
+
+        </div>
+
+        <body>
+            <header>
+                <img src="images/logo.jpg" alt="rafting logo">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="trips.html">Trips</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="hero">
+                    <img src="images/rafting-banner.jpg"
+                        alt="people in a raft with helmets and vests on navigating through some river rapids">
+                    <h1>Deschutes River Rafting</h1>
+                    <article>
+                        <img src="images/happy_client.jpg" alt="happy client's">
+                        <p>Born from Competition. Driven by Adventure.</p>
+                    </article>
+                </div>
+                <section class="history">
+                    <h2>History</h2>
+                    <article>
+                        <p>Deschutes River Rafting Company started as a dream. The founder, Pete
+                            Mitchell's inspiration began when he was a young man, playing and competing
+                            in all the water sports that Central Oregon had to offer. His stories and experience as a
+                            Pole Pedal
+                            Paddle athlete is the foundation of a rafting company that blends his passion for water
+                            sports and
+                            his love of nature.</p>
+                        <img src="images/history.jpg" alt="Ryan competing in the Pole Pedal Paddle in Bend, Oregon">
+                        <p>Today, our team offers guided river adventures that emphasize safety and fun. We are here to
+                            help
+                            you have unforgettable experiences of Central Oregon's rivers with families and friends.
+                        </p>
+                    </article>
+                </section>
+                <section class="adventure">
+                    <h2>Adventure Awaits You!</h2>
+                    <div>
+                        <figure>
+                            <img src="images/safety.jpg" alt="safety instruction">
+                            <figcaption>Safety First</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/family.jpg" alt="family before a river adventure doing a cheer">
+                            <figcaption>Families</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/friends.jpg" alt="friends on a raft floating down a river">
+                            <figcaption>Friends</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/group.jpg" alt="a group river adventure on a raft and kayaks">
+                            <figcaption>Groups</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/overnighter.jpg"
+                                alt="rafts and tents by the river for over night adventure">
+                            <figcaption>Multi-Day Adventures</figcaption>
+                        </figure>
+                    </div>
+                </section>
+            </main>
+            <div class="contact-form-grid">
+
+                <form action="#" method="post">
+                    <div class="form-item column2">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-item column2">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-item column2">
+
+                        <label>Message Purpose</label>
+                        <div class="block-form">
+                            <label for="inquiry">General Inquiry</label>
+                            <input type="radio" id="general" name="general" value="general" required>
+                            <label for="question">Reservation Question</label>
+                            <input type="radio" id="question" name="question" value="question">
+                            <label for="suggestion">Website Suggestion</label>
+                            <input type="radio" id="suggestion" name="suggestion" value="suggestion">
+                        </div>
+                    </div>
+                    <div class="block-form">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <label class="newsletter">
+                        <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly
+                        newsletter</label>
+
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+            </div>
+            <section class="our-team">
+                <h3>Meet Our Team!</h3>
+                <div class="team-grid">
+                    <figure>
+                        <img src="images/pete_mitchell.jpg" alt="Pete Mitchell is the owner of Deschutes River Rafting">
+                        <figcaption>Pete Mitchell</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/carole_bradshaw.jpg" alt="Carole Bradshaw is a rafting instructor">
+                        <figcaption>Carole Bradshaw</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/william_brandt.jpg" alt="William Brandt is one of our rafting guides">
+                        <figcaption>William Brandt</figcaption>
+                    </figure>
+                </div>
+            </section>
+    </main>
+
+
     <footer>
-        <p>©️2025 🌊 Sara Clements 🌊 Philomath, Oregon</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+        </nav>
+        <p>©️2025 🌊 Deschutes River Rafting 🌊 Sara Clements</p>
     </footer>
+
 </body>
 
 </html>

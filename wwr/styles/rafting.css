@@ -222,7 +222,7 @@ footer p {
     color: var(--accent2-color);
     opacity: 90%;
     padding: 0rem;
-    border: 9rem;
+    border: 10rem;
     border-radius: 5px;
     font-size: 1.3rem;
     cursor: pointer;
@@ -235,3 +235,11 @@ footer p {
     background-color: var(--accent3-color);
 }
 
+.trips img {
+    width: 310px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    
+
+}
