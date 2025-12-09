@@ -193,6 +193,7 @@ footer p {
     margin-bottom: 9px;
     margin-top: 3px;
 }
+
 .team {
     margin-top: 3rem;
     text-align: center;
@@ -215,8 +216,6 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
-
 
 .form-submit {
     background-color: var(--secondary-color);
@@ -241,6 +240,18 @@ footer p {
     display: flex;
     margin: 0 auto;
     padding: 0;
-    
-
 }
+
+.trips-grid {
+    display: flex;
+    gap: 5rem;
+}
+
+.trips-grid img {
+    width: 210px;
+    height: auto;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: black;
+}
+
