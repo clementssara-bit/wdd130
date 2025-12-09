@@ -34,40 +34,46 @@
         </div>
         <section class="welcome">
             <article>
-                <p>We enjoy creating unforgettable outdoor adventures for our clients. Whether you are looking for a few
+                <p>We enjoy creating unforgettable outdoor adventures for our clients on the beautiful rivers of Oregon.
+                    Whether you are looking for a few
                     hours or a weekend of nature and rafting, we are here to help you create the perfect trip for you.
                 </p>
 
             </article>
         </section>
         <section>
-            <h2>Find your perfect rafting adventure!</h2>
-            <div class="trips-grid">
-                <div>
-                    <h3>Half & Full Day Trips</h3>
-                    <figure>
-                        <figcaption>A Day Full Of Adventures</figcaption>
-                        <img src="images/half_and_full_day.jpg" alt="people in a raft going down a river">
-                    </figure>
-                </div>
-                <div>
-                    <h3>Multi Day Trips</h3>
-                    <figure>
-                        <figcaption>2, 3 & 4 Day Rafting Adventures</figcaption>
-                        <img src="images/multi_day.jpg" alt="a couple laying in their tent looking at the sunset">
-                    </figure>
-                </div>
-                <figure>
-                    <div>
-                        <h3>Private & Custom Trips</h3>
-                        <figcaption>The Options For A Customized River Adventure Are Endless!</figcaption>
-                        <img src="images/private_and_custom.jpg" alt="a girl pulling a kayak">
-                </figure>
-            </div>
-            </div>
+            <nav class="trips_page">
+                <a href="http://127.0.0.1:5501/wwr/trips.html">
+                    <h2>Find your perfect rafting adventure!</h2>
+                </a>
+            </nav>
         </section>
     </main>
+    <section class="contact-form">
+        <div class="contact-form-grid">
+            <form action="#" method="post">
+                <div class="form-item column2">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
+                <div class="form-item column2">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="block-form">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to the monthly
+                    newsletter</label>
+
+                <button type="subscribe" class="form-subscribe">Subscribe</button>
+            </form>
+        </div>
+    </section>
     <footer>
         <nav class="socialmedia">
             <a href="https://facebook.com">
