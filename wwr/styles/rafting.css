@@ -79,6 +79,15 @@ nav, p, section, article {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.welcome {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: .0px;
+    margin-top: 50px;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -272,4 +281,17 @@ footer p {
 .form-subscribe:hover {
     color: var(--accent1-color);
     background-color: var(--accent3-color);
+}
+
+.home-grid img {
+    width: 260px;
+    height: auto;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: black;
+}
+
+.home-grid {
+    display: flex;
+    gap: .7rem;
 }
