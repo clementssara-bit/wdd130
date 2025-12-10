@@ -11,11 +11,9 @@
     --accent2-color: yellow;
     --accent3-color: orange;
     --heading-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    --body-font: Arial, Helvetica, sans-serif;
 }
 
 body {
-    font-family: var(--body-font);
     color: var(--accent1-color);
     background-color: var(--primary-color);
 }
