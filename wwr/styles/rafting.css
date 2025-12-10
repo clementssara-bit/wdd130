@@ -295,3 +295,26 @@ footer p {
     display: flex;
     gap: .7rem;
 }
+
+.hero article.trips-hero img {
+    float: left;
+    width: 220px;
+}
+.hero article.transparent {
+    background-color: transparent;
+}
+
+.trips-table-grid table {
+    width: 66%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid var(--accent1-color);
+    border-radius: 5px;
+}
+
+.trips-table-grid table li {
+    list-style: none;
+}
+
