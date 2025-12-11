@@ -66,6 +66,10 @@ h1 {
     color: var(--accent2-color) 
 }
 
+h1 a {
+ color: var(--accent2-color)    
+}
+
 h2 {
     display: block;
     color: var(--accent2-color)
@@ -252,9 +256,23 @@ footer p {
     padding: 0;
 }
 
-.trips-grid {
+.trips-flex {
     display: flex;
     gap: .7rem;
+}
+
+.trips-flex img {
+    width: 260px;
+    height: auto;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: black;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: .7rem
 }
 
 .trips-grid img {
@@ -304,9 +322,7 @@ footer p {
     background-color: transparent;
 }
 
-.trips-table-grid table {
-    width: 66%;
-}
+
 
 table {
     border-collapse: collapse;

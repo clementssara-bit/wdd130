@@ -27,7 +27,7 @@
         <div class="hero">
             <img src="images/rafting-banner.jpg"
                 alt="people in a raft with helmets and vests on navigating through some river rapids">
-            <h1>Book A Trip</h1>
+            <h1><a href="http://127.0.0.1:5501/wwr/contact.html">Book A Trip</a></h1>
             <article class="trips-hero transparent">
                 <a href="http://127.0.0.1:5501/wwr/contact.html">
                     <img src="images/downriver.png" alt="logo of trees sun and down the river words">
@@ -35,7 +35,7 @@
             </article>
         </div>
         <section class="trips">
-            <div class="trips-grid">
+            <div class="trips-flex">
                 <div>
                     <h3>Half & Full Day Trips</h3>
                     <figure>
@@ -68,6 +68,8 @@
                             group size, time of year, etc.)</p>
                     </figure>
                 </div>
+            </div>
+            <div class="trips-grid">
                 <div>
                     <h3>Available Equipment</h3>
                     <figure>
@@ -89,20 +91,9 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>McKenzie River
-                                    <ul>
-                                        <li>Deschutes River</li>
-                                        <li>North Umpqua River</li>
-                                    </ul>
-                                </td>
-                                <td>Novice/Intermediate
-                                    <ul>
-                                        <li>
-                                            Intermediate/Advanced
-                                        </li>
-                                    </ul>
-                                </td>
-                                <td>
+                                <td>McKenzie River</td>
+                                <td>Novice/Intermediate</td>
+                                <td rowspan="3">
                                     <ul>
                                         <li>
                                             Half-Day: $100
@@ -111,13 +102,18 @@
                                         <li>Multi-Day: $400 per day</li>
                                     </ul>
                                 </td>
-
+                            </tr>
+                            <tr>
+                                <td>Deschutes River</td>
+                                <td rowspan="2">Intermediate/Advanced</td>
+                            </tr>
+                            <tr>
+                                <td>North Umpqua River</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
         </section>
-        <section></section>
     </main>
 
     <footer>
